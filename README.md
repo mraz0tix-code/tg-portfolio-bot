@@ -29,8 +29,8 @@ An advanced, asynchronous Telegram bot built with **Aiogram 3** that serves as a
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com
-cd your-repo-name
+git clone https://github.com/mraz0tix-code/tg-portfolio-bot/tree/main
+cd ~/tg-portfolio-bot
 ```
 
 ### 2. Install Dependencies
