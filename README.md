@@ -25,7 +25,7 @@ An advanced, asynchronous Telegram bot built with **Aiogram 3** that serves as a
 └── users.db            # SQLite database for storing registered users (auto-generated)
 ```
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation & Setup (Working only Linux)
 
 ### 1. Clone the Repository
 ```bash
