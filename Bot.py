@@ -12,10 +12,10 @@ from aiogram.utils.keyboard import InlineKeyboardBuilder
 #   export BOT_TOKEN=""
 #   export CREATOR_ID="8961301932"
 # =====================================================================
-API_TOKEN = "9202978256:AAERzR_W4PhOVtjEvTRAKv1_yLU7Fb1Dses"
+API_TOKEN = "Your_token"
 if not API_TOKEN:
     raise SystemExit("Set the BOT_TOKEN environment variable")
-ID_Creator = int(os.getenv("CREATOR_ID", "8961301932"))
+ID_Creator = int(os.getenv("CREATOR_ID", "YourTgID"))
 
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
