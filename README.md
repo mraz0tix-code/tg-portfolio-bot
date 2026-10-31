@@ -79,7 +79,7 @@ LOG_FILE=/var/log/auth.log
 ### Running the Login Alert Bot (`bot.py`)
 To test the log parsing engines locally without blasting notifications to active API endpoints, run the script with the testing flag:
 ```bash
-python3 bot.py --test
+python3 ssh_bot.py --test
 ```
 
 To deploy the production listener daemon (requires privileges to read security streams):
@@ -90,7 +90,7 @@ sudo python3 bot.py
 ### Running the Portfolio Bot (`portfolio.py`)
 To execute the asynchronous interactive bot portfolio pipeline:
 ```bash
-python3 portfolio.py
+python3 bot.py
 ```
 
 ### Production Daemonization (Optional)
