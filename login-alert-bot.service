@@ -1,0 +1,16 @@
+[Unit]
+Description=Telegram Login Alert Bot
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+WorkingDirectory=/opt/login-alert-bot
+ExecStart=/usr/bin/python3 /opt/login-alert-bot/bot.py
+Restart=always
+RestartSec=5
+# root is needed to read the journal / auth.log
+User=root
+
+[Install]
+WantedBy=multi-user.target
