@@ -40,8 +40,8 @@ Ensure you have Python 3.9 or higher installed on your target machine. For the *
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com
-cd YOUR_REPOSITORY
+git clone https://github.com/mraz0tix-code/tg-bots
+cd ~/tg-bots
 ```
 
 ### 2. Install Dependencies
